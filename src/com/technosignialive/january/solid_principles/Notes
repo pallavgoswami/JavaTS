@@ -1,0 +1,24 @@
+SOLID PRINCIPLES
+S- Single Responsibility
+O- Open Closed Principle
+L- Liskov Substitution Principle
+I- Interface Segregation
+D- Dependency Inversion
+
+Solid Principles are the design principles that helps the developer write more maintainable, scalable, robust code.
+These principles form the foundation of object oriented design and are most commonly used in enterprise level software.
+
+
+O - Open-closed principle states that it is open for extension but closed for modification.
+
+
+L - Child class should be implemented without altering the parent class.
+    Subclass (child class) must be substitute for their base types (parent class) without altering the correctness of the program.
+
+I - Interface segregation states that a single interface should implement one functionality so that no extra overriding is required.
+
+D- High Level models should not be dependent on low level models. Both should be dependent on abstraction.
+
+
+
+Volatile is a keywords that states variable value maybe changed by multiple threads simultaneously.

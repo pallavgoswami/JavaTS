@@ -1,0 +1,34 @@
+Multithreading is the process of executing multiple threads simultaneously or in parallel.
+A thread is a lightweight sub process, the smallest unit of processing.
+
+Daemon Thread
+Daemon thread is a low priority thread which is used to provide services to user thread such as memory cleaning.
+If user threads are terminated, JVM will terminate daemon thread forcefully.
+The best example of daemon thread in Java is garbage collector.
+
+List of methods in thread class
+What is the difference between wait and sleep method?
+What is the difference between notify and notifyAll method?
+What will happen if we call yield method on a thread?
+
+Which method are from Thread class, String class and Object class?
+
+List out all the methods present in the object class
+
+YIELD
+    Yield Method allows the other thread to execute which has same priority.
+    However it does not guarantee that the current thread will stop executing.
+    It puts the current thread back to the ready to run state (Runnable state) and not in Sleep or Waiting state.
+
+WAIT
+    It causes the current thread to wait until another thread invokes notify or notifyAll method on the same object.
+    It releases the lock on the object and enters the Waiting state.
+    wait(); -> Wait until notified
+    wait(2000); milliseconds -> Wait for the specified time before continuing if not notified
+    It causes the current thread to sleep for a specified amount of time without releasing the lock.
+
+NOTIFY
+    Notify method will notify to a single thread which is waiting on the object.
+
+NOTIFYALL
+    This will notify all the threads which are waiting on the object.

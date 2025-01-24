@@ -1,0 +1,31 @@
+Polymorphism
+1. Compile time Polymorphism (Method Overloading)
+2. Runtime Polymorphism (Method Overriding)
+
+
+Compile Time Polymorphism (Method Overloading)
+    i. If we perform one task in different ways it is known as polymorphism
+    ii. Same method name with different number of parameters or different type of parameters or in different order or different data type in a same class is called method overloading
+
+    Can we overload static or main method?
+    -> Yes both can be overloaded
+
+    Q. Is method overloading possible by only changing method return type?
+    -> No, diff parameters required.
+
+Runtime Polymorphism (Method Overriding)
+    i. Runtime polymorphism or dynamic method dispatch
+    ii. The method calling is resolved at runtime rather than compile time, that's why we call it dynamic method dispatch
+    iii. In other words, dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile time
+    iv. Same method name with same number of parameters in a different class is called as method overriding.
+
+    Q. Is overriding possible in a same class?
+    Q. Is method overriding possible by changing method return type?
+    -> Yes but it should be covariant return type
+    Q. Can we override a static method?
+    -> No, if we try child class method will get hidden but it wont give compile time error
+    Q. Can properties of a class get overridden or not?
+
+    --> NOTE
+        The access modifier of the overridden method should be same or in increasing order.
+        We cannot reduce the accessibility of the overridden method.

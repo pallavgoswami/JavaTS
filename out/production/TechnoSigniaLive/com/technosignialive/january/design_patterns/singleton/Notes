@@ -1,0 +1,10 @@
+Design Patterns are the preowned solutions for the commonly occurring problems in software design.
+
+They are of 3 types
+    i. Creational
+    ii. Structural
+    iii. Behavioural
+
+
+Singleton Design Pattern
+    i. Class which can have only one object

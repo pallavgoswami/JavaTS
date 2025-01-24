@@ -1,0 +1,21 @@
+Inheritance
+    i. Inheritance is a mechanism where one class can acquire all the properties and behaviours(methods) of another class.
+    ii. Inheritance is also called as IS A relationship
+    iii. It is done using extends keyword
+    iv. A class from where the subclass inherits the features is called a superclass, it is also called as a base class or parent class.
+    v. Subclass is a class which inherits the other class. It is also called as a child class
+    vi. Subclass is also called as a derived class, child class, extended class or inherited class.
+
+Advantages
+    i. Code Reus-ability
+    ii. To achieve run-time polymorphism
+
+Types
+    i. Single Level Inheritance - Father -> Son
+    ii. Multi Level Inheritance - Grandfather -> Father -> Son
+    iii. Hierarchical Inheritance - Vehicle -> Car, Bike
+
+    Company - employee and University - college are not examples of inheritance as they are HAVE A relationship.
+
+    Java doesn't support multiple inheritance in classes because it can lead to ambiguity and complexity,
+    The diamond problem: If a class A has a method foo(), and B and C derive from A with their own foo() implementations, then a class D that derives from both B and C will have a compiler that can't tell which foo() to execute.

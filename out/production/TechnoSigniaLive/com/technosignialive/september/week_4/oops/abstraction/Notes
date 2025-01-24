@@ -1,0 +1,59 @@
+ABSTRACTION
+
+Abstract is a keyword and it is a non access modifier which can be used with class and methods.
+
+There are two ways to achieve abstraction in Java
+    1. Abstract Class
+    2. Interface
+
+Abstract Class
+    i. If we declare any class as abstract then it is called as a abstract class
+    ii. It is 0-100% abstraction and we cannot create an object (instantiation) of an abstract class
+    iii. An abstract class must be declared with an abstract keyword
+    iv. It can have abstract and non abstract methods
+    v. It can have constructors and static methods also
+    vi. It can have final methods which will force the subclass not to change the body of the
+        method.
+
+
+    abstract class Bank {
+        abstract float getROI();
+        void display() {
+            System.out.println("Bank");
+        }
+    }
+
+Interface (According to Java 1.7)
+    i. Interface is a blueprint of a class
+    ii. In interface class, by default the methods are public abstract
+    iii. Interface is 100% abstraction
+    iv. We cannot instantiate an interface
+    v. It doesn't contain constructor
+    vi. By default public static final (static constant)
+
+    Factory Design Pattern
+    Adapter Design Pattern
+    Singleton Design Pattern
+
+
+
+Protected Access Modifier is accessible within a package outside the class and it is also accessible outside the package if there is a parent child relationship or IS-A relationship
+or inheritance between two classes and we need access protected members using a child class object.
+
+package p1;
+public class Person {
+    protected String getPersonName() {
+        return "Smith";
+    }
+}
+
+package p2;
+import p1.person;
+public class Student extends Person {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        System.out.println(s1.getPersonName());
+    }
+}
+
+// OOPS CONCEPTS ENDED

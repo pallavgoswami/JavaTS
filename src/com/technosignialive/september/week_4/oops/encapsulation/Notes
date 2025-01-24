@@ -1,0 +1,8 @@
+Encapsulation
+     i. Encapsulation is the process where we wrap the data together into single unit.
+        The best example of encapsulation is java class.
+        It is the process of wrapping a data into a single unit like a class in java to hide sensitive data from outside the world/class and get control over the data.
+        ii. POJO/Bean - Plain Old Java Object, The class which contains private data members and public getter/setter methods without main methods.
+            Pojo is an example of fully encapsulated class.
+            We can initialise the instance variables with parameterized constructors as well as setter getter methods
+            POJO -> Plain Old Java Object or Bean class can read/write or read only , write only
